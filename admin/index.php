@@ -20,7 +20,7 @@ $total = array_sum(array_column($ped, 'total'));
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Admin · <?= SITE_NAME ?> · Diana Trujillo</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<style>body{background:#0e0c08;color:#f5edd8}.table{--bs-table-bg:#171309;--bs-table-color:#f5edd8}.card{background:#171309;border:1px solid #c9a22733;color:#f5edd8}a{color:#e8c766}</style>
+<style>body{background:#faf7f0;color:#4a3a28}.table{--bs-table-bg:#fffdf7;--bs-table-color:#4a3a28}.card{background:#fffdf7;border:1px solid #ddd0b6;color:#4a3a28}a{color:#1e5b44}</style>
 </head>
 <body>
 <div class="container py-4">
@@ -47,7 +47,7 @@ $total = array_sum(array_column($ped, 'total'));
         <td><form method="POST" class="d-flex gap-1">
           <input type="hidden" name="id" value="<?= (int)$r['id'] ?>">
           <select name="estado" class="form-select form-select-sm"><?php foreach (['nuevo','confirmado','enviado'] as $e): ?><option <?= $e===$r['estado']?'selected':'' ?>><?= $e ?></option><?php endforeach; ?></select>
-          <button class="btn btn-sm btn-warning">💾</button>
+          <button class="btn btn-sm btn-success">💾</button>
         </form></td>
       </tr>
     <?php endforeach; ?>

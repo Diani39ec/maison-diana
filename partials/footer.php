@@ -14,7 +14,7 @@
   <div id="drawer-items"></div>
   <div class="drawer-foot">
     <p>Total: <strong id="drawer-total">$0.00</strong></p>
-    <button id="btn-checkout" class="btn gold big">Finalizar compra ✨</button>
+    <button id="btn-checkout" class="btn solid big">Finalizar compra ✨</button>
   </div>
 </aside>
 
@@ -25,7 +25,7 @@
     <label>WhatsApp:<input id="p-tel" name="tel" required placeholder="+593 ..." autocomplete="tel"></label>
     <input type="hidden" id="p-items" name="items">
     <input type="hidden" id="p-total" name="total">
-    <button class="btn gold big" type="submit">Confirmar pedido 💎</button>
+    <button class="btn solid big" type="submit">Confirmar pedido 💎</button>
     <button type="button" id="btn-cancel" class="btn ghost">Seguir viendo</button>
     <p id="ped-ok" role="status"></p>
   </form>

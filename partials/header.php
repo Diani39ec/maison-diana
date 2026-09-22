@@ -22,6 +22,6 @@
     <a href="#boutique">Boutique</a>
     <a href="#opiniones">Opiniones</a>
   </nav>
-  <button id="btn-cart" class="btn gold" aria-label="Abrir carrito">👜 <span id="cart-n">0</span></button>
+  <button id="btn-cart" class="btn solid" aria-label="Abrir carrito">👜 <span id="cart-n">0</span></button>
   <button id="menu" aria-label="Abrir menú">☰</button>
 </header>

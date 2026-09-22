@@ -30,7 +30,7 @@
     $('grid').innerHTML=PRODUCTS.filter(p=>f==='all'||p.categoria===f).map(p=>
       `<article class="pcard"><div class="foto"><img src="${p.foto_url}" alt="${p.foto_alt||p.nombre}" loading="lazy" onerror="this.onerror=null;this.src='${FALLBACK}'"><span class="shine"></span></div>
       <div class="body"><p class="cat">${CAT[p.categoria]||p.categoria}</p><h3>${p.nombre}</h3>
-      <div class="row"><span class="price">${money(p.precio)}</span><button class="btn gold" data-add="${p.id}">Añadir 👜</button></div></div></article>`).join('');
+      <div class="row"><span class="price">${money(p.precio)}</span><button class="btn solid" data-add="${p.id}">Añadir 👜</button></div></div></article>`).join('');
     document.querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>add(+b.dataset.add));
   }
   document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
