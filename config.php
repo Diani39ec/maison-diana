@@ -1,5 +1,5 @@
 <?php
-// MAISON DIANA · © Diana Trujillo — Configuración central
+// AURELIA · © Diana Trujillo — Configuración central
 declare(strict_types=1);
 
 define('DB_HOST', '127.0.0.1');
@@ -7,7 +7,7 @@ define('DB_NAME', 'maison_db');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 define('ADMIN_KEY', 'diana2026');
-define('SITE_NAME', 'MAISON DIANA');
+define('SITE_NAME', 'AURELIA');
 
 function db(): PDO {
   static $pdo = null;

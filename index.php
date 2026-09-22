@@ -1,4 +1,4 @@
-<?php // MAISON DIANA · Portada · © Diana Trujillo ?>
+<?php // AURELIA · Portada · © Diana Trujillo ?>
 <?php require __DIR__ . '/partials/header.php'; ?>
 
 <main id="top">
@@ -23,10 +23,6 @@
     </div>
     <a class="scroll" href="#coleccion" aria-label="Bajar a la colección">⌄</a>
   </section>
-
-  <div class="marquee" aria-hidden="true"><div class="track">
-    <span>👑 ELEGANCE · 🌆 URBAN · 🧶 ARTESANAL · ENVÍO GRATIS +$100 · 15% OFF CLUB DIANA ·&nbsp;</span><span>👑 ELEGANCE · 🌆 URBAN · 🧶 ARTESANAL · ENVÍO GRATIS +$100 · 15% OFF CLUB DIANA ·&nbsp;</span>
-  </div></div>
 
   <!-- COLECCIÓN (desde api/productos.php) -->
   <section id="coleccion" class="sec">

@@ -1,5 +1,5 @@
 -- =====================================================
--- MAISON DIANA · MySQL 8+ · © Diana Trujillo
+-- AURELIA · MySQL 8+ · © Diana Trujillo
 -- Base: maison_db (utf8mb4)
 -- =====================================================
 CREATE DATABASE IF NOT EXISTS maison_db

@@ -1,12 +1,12 @@
-<?php // MAISON DIANA · Pie · © Diana Trujillo ?>
+<?php // AURELIA · Pie · © Diana Trujillo ?>
 <footer>
   <div class="foot-grid">
-    <div><h4>MAISON DIANA</h4><p>Elegance · Urban · Artesanal.<br>Envíos a todo Ecuador y el mundo.</p></div>
+    <div><h4>AURELIA</h4><p>Elegance · Urban · Artesanal.<br>Envíos a todo Ecuador y el mundo.</p></div>
     <div><h4>Club Diana</h4><p>15% OFF en tu primera compra al suscribirte.</p></div>
     <div><h4>Contacto</h4><p>WhatsApp · Instagram · TikTok<br>Quito · Guayaquil · Cuenca</p></div>
   </div>
   <p class="fotos">Fotos: Unsplash (licencia de uso libre).</p>
-  <p>© 2026 MAISON DIANA · Creado por <strong>Diana Trujillo</strong> ✨</p>
+  <p>© 2026 AURELIA · Casa de Moda · Creado por <strong>Diana Trujillo</strong> ✨</p>
 </footer>
 
 <aside id="drawer" aria-label="Carrito de compras">

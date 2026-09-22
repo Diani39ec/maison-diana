@@ -1,5 +1,5 @@
 <?php
-// MAISON DIANA · Panel admin · © Diana Trujillo. Uso: admin/?key=diana2026
+// AURELIA · Panel admin · © Diana Trujillo. Uso: admin/?key=diana2026
 declare(strict_types=1);
 require __DIR__ . '/../config.php';
 
@@ -24,7 +24,7 @@ $total = array_sum(array_column($ped, 'total'));
 </head>
 <body>
 <div class="container py-4">
-  <h1>👑 Admin · MAISON DIANA</h1>
+  <h1>👑 Admin · AURELIA</h1>
   <p>Por Diana Trujillo</p>
   <div class="d-flex gap-3 mb-4">
     <div class="card p-3">🧾 Pedidos: <strong><?= count($ped) ?></strong></div>
@@ -39,7 +39,7 @@ $total = array_sum(array_column($ped, 'total'));
       <tr>
         <td><?= (int)$r['id'] ?></td>
         <td><?= htmlspecialchars($r['nombre']) ?></td>
-        <td><a target="_blank" href="https://wa.me/?text=<?= urlencode('Hola '.$r['nombre'].', te escribe MAISON DIANA ✨') ?>"><?= htmlspecialchars($r['telefono']) ?></a></td>
+        <td><a target="_blank" href="https://wa.me/?text=<?= urlencode('Hola '.$r['nombre'].', te escribe AURELIA ✨') ?>"><?= htmlspecialchars($r['telefono']) ?></a></td>
         <td><small><?= htmlspecialchars(mb_substr($r['items'], 0, 120)) ?></small></td>
         <td><strong>$<?= number_format((float)$r['total'], 2) ?></strong></td>
         <td><?= htmlspecialchars($r['created_at']) ?></td>

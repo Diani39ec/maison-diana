@@ -1,4 +1,4 @@
-/* MAISON DIANA · Tienda de lujo · © Diana Trujillo */
+/* AURELIA · Tienda de lujo · © Diana Trujillo */
 (function(){
   'use strict';
   const $=id=>document.getElementById(id);

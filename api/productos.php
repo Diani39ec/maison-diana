@@ -1,5 +1,5 @@
 <?php
-// MAISON DIANA · API JSON de productos · © Diana Trujillo
+// AURELIA · API JSON de productos · © Diana Trujillo
 declare(strict_types=1);
 require __DIR__ . '/../config.php';
 header('Content-Type: application/json; charset=utf-8');

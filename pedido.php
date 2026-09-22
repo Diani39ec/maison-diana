@@ -1,5 +1,5 @@
 <?php
-// MAISON DIANA · Guarda pedido del carrito (POST → JSON) · © Diana Trujillo
+// AURELIA · Guarda pedido del carrito (POST → JSON) · © Diana Trujillo
 declare(strict_types=1);
 require __DIR__ . '/config.php';
 header('Content-Type: application/json; charset=utf-8');
